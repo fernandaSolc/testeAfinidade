@@ -12,7 +12,7 @@ body,
 html {
   min-height: 100vh;
   height: 100%;
-  background-color: #E0D7F5;
+  background-color: #E6D9F4;
 }
 
 img {
@@ -20,38 +20,33 @@ img {
 }
 
 button {
+  display: block;
   width: 40vh ;
   height: 60vh;
-  color: white;
   border: none;
   font-weight: bold;
   font-size: 1.2rem;
   cursor: pointer;
-  padding: .8rem;
   border-radius: 5vh;
-  background: linear-gradient(
-    900deg,
-    rgb(153, 64, 255) 0%,
-    rgb(201, 136, 231) 100%
-  );
-  transition: .2s ease-out; 
+  background: #ae70ff;
+  color: #412863;
+  transition: .3s ease-out; 
 }
 button:hover {
-  background:linear-gradient(
-    20deg,
-    rgb(153, 64, 255) 0%,
-    rgb(201, 136, 231) 100%
-  );
+  background: #826D9D;
+  color: #281F33;
 }
 
 #textbut {
-  display: flex;
-  
-  align-items: flex-start; /* Alinhar itens ao topo */
-  justify-content: flex-start; /* Alinhar conteúdo à esquerda */
-  padding: 0;
-  margin: 0;
+  display: block;
+  height: 0vh;
   font-family: "nunito", sans-serif;
   font-weight: 900;
   font-style: normal;
+  font-size: 5vh;
+  text-align: center;
+}
+
+#sol {
+  display: block;
 }
