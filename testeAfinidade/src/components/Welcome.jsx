@@ -1,6 +1,5 @@
 import "./Welcome.css";
 import testeafinidade from "../img/quiz.svg";
-import sol from "../img/sol.png";
 
 const Welcome = () => {
   return (
@@ -13,7 +12,6 @@ const Welcome = () => {
           <div id="textbut" >
         Encontre seu monitor!
         </div>
-        <img src={sol} alt="Sol" />
       </button>  
       <div id="imgPD">
       <img src={testeafinidade} alt="Início do Quiz" />
