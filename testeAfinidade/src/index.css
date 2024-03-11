@@ -1,7 +1,11 @@
+@import url("https://use.typekit.net/ryi6rcu.css");
+
 * {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "nunito", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 
 body,
@@ -16,16 +20,38 @@ img {
 }
 
 button {
+  width: 40vh ;
+  height: 60vh;
+  color: white;
   border: none;
   font-weight: bold;
   font-size: 1.2rem;
   cursor: pointer;
   padding: .8rem;
-  border-radius: 1vh;
-  background-color: #e7e4f7;
-
+  border-radius: 5vh;
+  background: linear-gradient(
+    900deg,
+    rgb(153, 64, 255) 0%,
+    rgb(201, 136, 231) 100%
+  );
+  transition: .2s ease-out; 
 }
 button:hover {
+  background:linear-gradient(
+    20deg,
+    rgb(153, 64, 255) 0%,
+    rgb(201, 136, 231) 100%
+  );
+}
 
-  background-color: #f0eff8
+#textbut {
+  display: flex;
+  
+  align-items: flex-start; /* Alinhar itens ao topo */
+  justify-content: flex-start; /* Alinhar conteúdo à esquerda */
+  padding: 0;
+  margin: 0;
+  font-family: "nunito", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }

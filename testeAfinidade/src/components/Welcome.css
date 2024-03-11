@@ -13,5 +13,6 @@
 }
 
 #welcome img {
-  margin-top: 2rem;
+  margin-top: 18rem;
+  max-width: 100px;
 }
