@@ -39,14 +39,9 @@ button:hover {
 
 #textbut {
   display: block;
-  height: 0vh;
   font-family: "nunito", sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 5vh;
   text-align: center;
-}
-
-#sol {
-  display: block;
 }
