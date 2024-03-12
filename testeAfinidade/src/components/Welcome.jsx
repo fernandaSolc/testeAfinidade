@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { QuizContext } from "../context/quiz";
 import "./Welcome.css";
 
+
 const Welcome = () => {
   const [quizState, dispatch] = useContext(QuizContext);
   return (
@@ -10,9 +11,14 @@ const Welcome = () => {
       <p>Clique no botão abaixo para começar:</p>
         <button onClick={() => dispatch({ type: "CHANGE_STAGE" })}>
           <div id="textbut" >
-        Encontre seu monitor!
+           Encontre seu monitor!
         </div>
       </button>
+
+      <div id="imgPD">
+      <img src={testeafinidade} alt="Início do Quiz" />
+      </div>
+
     </div>
     
   );
